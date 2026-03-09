@@ -3,7 +3,53 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elite Solution Tech World — Solar Installation Experts</title>
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+
+<!-- SEO Meta Tags -->
+<title>Elite Solution Tech World — Solar Installation Experts in Nigeria</title>
+<meta name="description" content="Elite Solution Tech World provides professional solar panel installation, inverter setup, battery systems, and renewable energy solutions for homes and businesses across Nigeria. Based in Oyo State. Call +2348054271432.">
+<meta name="keywords" content="solar installation Nigeria, solar panel Oyo State, inverter installation Nigeria, renewable energy Nigeria, solar energy company Nigeria, Elite Solution Tech World, solar system Nigeria, battery backup Nigeria, solar installation Ibadan">
+<meta name="author" content="Elite Solution Tech World">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="NG-OY">
+<meta name="geo.placename" content="Oyo State, Nigeria">
+
+<!-- Open Graph (for WhatsApp, Facebook previews) -->
+<meta property="og:title" content="Elite Solution Tech World — Solar Installation Experts in Nigeria">
+<meta property="og:description" content="Professional solar panel installation, inverter setup, and renewable energy solutions across Nigeria. Based in Oyo State. Nationwide delivery available.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://victordarasimi02-lgtm.github.io/elite-solution-tech-world-/">
+<meta property="og:locale" content="en_NG">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Elite Solution Tech World — Solar Installation Nigeria">
+<meta name="twitter:description" content="Professional solar installation, inverter setup & renewable energy solutions across Nigeria. Call +2348054271432.">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://victordarasimi02-lgtm.github.io/elite-solution-tech-world-/">
+
+<!-- Schema Markup (helps Google understand the business) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Elite Solution Tech World",
+  "description": "Professional solar panel installation, inverter setup, and renewable energy solutions for homes and businesses across Nigeria.",
+  "url": "https://victordarasimi02-lgtm.github.io/elite-solution-tech-world-/",
+  "telephone": "+2348054271432",
+  "email": "elitesolutiontechworld@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Oyo State",
+    "addressCountry": "NG"
+  },
+  "areaServed": "Nigeria",
+  "serviceType": ["Solar Panel Installation", "Inverter Setup", "Battery Installation", "Renewable Energy", "Solar Equipment Sales"],
+  "priceRange": "₦₦"
+}
+</script>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -23,7 +69,7 @@
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; color-scheme: light only; }
 
   body {
     font-family: 'DM Sans', sans-serif;
@@ -758,7 +804,23 @@
   }
 
   /* MOBILE */
-  @media (max-width: 900px) {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --sun: #E8960F;
+      --sun-light: #F5A623;
+      --accent: #1A8FD1;
+      --accent-mid: #3AABF0;
+      --accent-light: #7FCCF5;
+      --dark: #F0F8FF;
+      --dark-mid: #E1F1FC;
+      --text: #0D2A3E;
+      --text-muted: #4A7A9B;
+      --white: #FFFFFF;
+      --card-bg: #FFFFFF;
+      --border: rgba(26,143,209,0.15);
+    }
+    body { background: #F0F8FF !important; color: #0D2A3E !important; }
+  }
     .sun-orb { display: none; }
     .why-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
     .footer-top { grid-template-columns: 1fr; gap: 36px; }
@@ -985,11 +1047,11 @@
           <span>+234 805 427 1432</span>
         </div>
       </a>
-      <a href="mailto:info@elitesolutiontechworld.com" class="contact-detail">
+      <a href="mailto:elitesolutiontechworld@gmail.com" class="contact-detail">
         <div class="contact-detail-icon">📧</div>
         <div class="contact-detail-text">
           <strong>Email Us</strong>
-          <span>info@elitesolutiontechworld.com</span>
+          <span>elitesolutiontechworld@gmail.com</span>
         </div>
       </a>
       <div class="contact-detail" style="cursor: default;">
@@ -1074,7 +1136,7 @@
 <!-- WhatsApp Float -->
 <a href="https://wa.me/2348054271432" class="wa-float" title="Chat on WhatsApp">💬</a>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Mobile menu
   function toggleMenu() {
     document.getElementById('navLinks').classList.toggle('open');
@@ -1113,19 +1175,4 @@
 
     const subject = encodeURIComponent(`New Enquiry from ${firstName} ${lastName} — ${service || 'General'}`);
     const body = encodeURIComponent(
-      `Name: ${firstName} ${lastName}\nPhone: ${phone}\nService: ${service || 'Not specified'}\n\nMessage:\n${message}`
-    );
-
-    window.location.href = `mailto:elitesolutiontechworld@gmail.com?subject=${subject}&body=${body}`;
-
-    const btn = document.querySelector('.btn-submit');
-    btn.textContent = '✅ Opening Email...';
-    btn.style.background = 'linear-gradient(135deg, #2D9B5A, #1A6B3C)';
-    setTimeout(() => {
-      btn.innerHTML = 'Send Message ✉️';
-      btn.style.background = '';
-    }, 3000);
-  }
-</script>
-</body>
-</html>
+      `Name: 
